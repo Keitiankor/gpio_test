@@ -1,0 +1,1 @@
+cmd_/home/pi/ker/gpio_test/gpio_test.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/ker/gpio_test/gpio_test.ko /home/pi/ker/gpio_test/gpio_test.o /home/pi/ker/gpio_test/gpio_test.mod.o ;  true
